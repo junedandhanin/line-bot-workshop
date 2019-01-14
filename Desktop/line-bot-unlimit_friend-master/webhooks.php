@@ -45,7 +45,7 @@ if (!is_null($events['events'])) {
 	}
 }
 require "vendor/autoload.php";
-$channelSecret = '9fb517f24618a466d8dfa7b126783842';
+$channelSecret = '8469fb285ea12d210d88f921a3d47c4b';
 $pushID = 'U3d8452b9156537665d6b9021ea3c2c05';
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
