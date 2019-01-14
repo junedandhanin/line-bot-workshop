@@ -8,7 +8,7 @@ $access_token = 'dTR0SHo0XqlUgjBNlKPyHQm4vJ0BZCGNy3eN4M36W8OsTBmLaQD5vW0yl4Gr0Dg
 
 $channelSecret = '8469fb285ea12d210d88f921a3d47c4b';
 // ID ที่ต้องการส่งไปหา
-$pushID = 'U483e9e5172e1a3ca9e1196a7e8405009';
+$pushID = 'U3d8452b9156537665d6b9021ea3c2c05';
 
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
